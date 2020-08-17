@@ -891,5 +891,28 @@ t.forward(u*4)
 
 t.reset()
 
+t.pencolor('red')
+t.pensize(3)
+
+t.left(270)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(270)
+t.forward(100)
+t.left(45)
+t.backward(100)
+t.right(45)
+t.forward(100)
+t.backward(250)
+t.right(45)
+t.forward(150)
+
+t.reset()
+
 # leave the input() function at the bottom of the code
 input('hit enter to exit')
