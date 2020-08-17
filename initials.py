@@ -199,6 +199,28 @@ t.forward(50)
 t.right(315)
 t.forward(70)
 
+t.reset() 
+
+t.pencolor('red') 
+count = 1 
+while count < 180: 
+    t.forward(2)
+    t.left(2) 
+    count = count + 1
+t.pencolor('white') 
+t.forward(50)
+t.pencolor('blue')
+t.left(75)
+t.forward(120) 
+t.right(150) 
+t.forward(70)
+t.right(105)
+t.forward(45)
+t.right(180)
+t.forward(45)
+t.right(75) 
+t.forward(70)
+
 t.reset()
 
 # leave the input() function at the bottom of the code
