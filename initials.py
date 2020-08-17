@@ -792,8 +792,51 @@ t.forward(50)
 
 t.reset()
 
+## does this belong befor the C?
+t.down()
 t.left(90)
-t.down
+t.forward(100)
+t.up()
+t.left(180)
+t.forward(50)
+t.down()
+t.left(45)
+t.forward(70)
+t.up()
+t.left(180)
+t.forward(70)
+t.down()
+t.right(90)
+t.forward(70)
+t.up()
+
+#drawing the letter C
+t.right(45)
+t.forward(80)
+t.right(45)
+t.forward(20)
+t.left(180)
+t.down()
+t.forward(20)
+t.left(45)
+t.forward(40)
+t.left(45)
+t.forward(20)
+t.left(45)
+t.forward(70)
+t.left(45)
+t.forward(20)
+t.left(45)
+t.forward(40)
+t.left(45)
+t.forward(20)
+
+## ???
+t.reset()
+
+t.left(90)
+t.down()
+u = 20
 t.backward(u*2)
 t.forward(u*4)
 t.backward(u*2)
